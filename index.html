@@ -2,14 +2,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/post.js"></script>
 	<title>MoreliaTalk</title>
 </head>
 <body>
 	<div id = "zag"><h1><em>MoreliaTalk<em></h1></div>
 	<div align = "center"><textarea id = "view" rows="33"cols="50" readonly="readonly"></textarea></div>
 	<textarea id = "input" rows="3"cols="30"></textarea>
-	<button id = "buttoninput">Отправить</button>
-	<script type="text/javascript" src="get.js"></script>
+	<button id = "buttoninput" onclick="send_message()">Отправить</button>
+	<script type="text/javascript" src="js/get.js"></script>
 </body>
 </html>
