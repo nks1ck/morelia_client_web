@@ -8,7 +8,7 @@ async function send_message(){
 		"timestamp":date.getTime()
 	}
 	document.getElementById('input').value=""
-	let url = 'http://serverpocegram.pythonanywhere.com/send_message';
+	let url = 'https://serverpocegram.pythonanywhere.com/send_message';
 	await fetch(url,{
 	method: 'POST',
 	headers: {'Content-Type': 'application/json;charset=utf-8'},

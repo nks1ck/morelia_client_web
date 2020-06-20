@@ -1,5 +1,5 @@
 async function update_message(){
-	let url = 'http://serverpocegram.pythonanywhere.com/get_messages?after='+lasttimestamp;
+	let url = 'https://serverpocegram.pythonanywhere.com/get_messages?after='+lasttimestamp;
 	var response = await fetch(url);
 	var messages = await response.json()
 	messages = messages["messages"]
